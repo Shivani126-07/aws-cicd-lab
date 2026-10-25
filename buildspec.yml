@@ -1,0 +1,12 @@
+
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building my website"
+      - test -f index.html
+
+artifacts:
+  files:
+    - index.html
